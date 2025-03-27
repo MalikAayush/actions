@@ -31,7 +31,7 @@ jobs:
 
       # Step 4: Run tests 
       - name: Run tests
-        run: pytest --disable-warnings -v
+        run: pytest 
 
 #   docker-build:
 #     needs: build-and-test
